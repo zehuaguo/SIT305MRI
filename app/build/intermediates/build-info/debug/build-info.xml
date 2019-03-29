@@ -5,23 +5,46 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.3.2"
-    timestamp="1553836605342"
+    timestamp="1553836807303"
     token="-7317703512791705880"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="584" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="69" />
     <task
         name="verifier"
-        duration="0" />
+        duration="36" />
+
+    <artifact
+        location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -67,7 +90,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1553828722439"
+        timestamp="1553836807303"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -79,21 +102,17 @@
             location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1553836605342"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
