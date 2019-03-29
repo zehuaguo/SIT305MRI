@@ -1,7 +1,7 @@
-#Fri Mar 29 17:17:44 AEDT 2019
-base.0=/Users/kimmyhj/Desktop/SIT305MRI/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+#Fri Mar 29 17:38:21 AEDT 2019
+base.0=/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/kimmyhj/Desktop/SIT305MRI/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+base.1=/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/dex/debug/mergeExtDexDebug/out

@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Fri Mar 29 17:17:44 AEDT 2019
-1.base=/Users/kimmyhj/Desktop/SIT305MRI/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+#Fri Mar 29 17:38:22 AEDT 2019
+1.base=/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=/Users/kimmyhj/Desktop/SIT305MRI/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+0.base=/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 1.path=classes.dex

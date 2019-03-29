@@ -671,6 +671,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id buttonPanel
 id center
 id center_horizontal
@@ -791,6 +792,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id textView_location
 id textView_name
 id time
