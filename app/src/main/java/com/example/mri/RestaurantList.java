@@ -1,5 +1,6 @@
 package com.example.mri;
 
+import android.content.Intent;
 import android.location.Location;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -19,6 +21,7 @@ public class RestaurantList extends AppCompatActivity {
 
     String[] LOCATION = {"City", "BoxHill"};
 
+    ImageButton Imagebutton1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +33,20 @@ public class RestaurantList extends AppCompatActivity {
 
         CustomAdapter customAdapter = new CustomAdapter();
         listView.setAdapter(customAdapter);
+
+        Imagebutton1 = (ImageButton) findViewById(R.id.imageButton11);
+        Imagebutton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity_restaurant_list();
+            }
+        });
+
+    }
+
+    public void openActivity_restaurant_list() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     class CustomAdapter extends BaseAdapter{
