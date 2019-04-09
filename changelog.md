@@ -12,7 +12,9 @@ Week 4, Paris & Kim
 - This file needs significantly more edits, so I can match dates with attendance.php entries and ensure fair grades at end of trimester.
 - You need much more progress. Deakin requires a minimum 10-14 hours per week, per unit, in order to pass.
 
-Week 5
+Week 5, Paris & Kim
+- I created 7 layouts and 7 activities. Each of these layouts corresponds to a different type of restaurant, such as a Chinese restaurant, a Korean restaurant, and each layout has a list of the restaurants and the Button returns to the main page. (Paris-12hours)
+- Created a Firebase database.
 
 # Week 6, Monday 8/April [Henry]
 - There is a need of minimum 2 days per week to pass under normal circumstances. 
