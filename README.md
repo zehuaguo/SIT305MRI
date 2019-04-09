@@ -9,7 +9,7 @@ Directories:
 
 Week3: Built the new repository.
 
-Week4: Please check the layout part for activity_main_xml, activity_restaurant_list, customlayout_xml.
+Week4: Please check the layout part for activity_main_xml, activity_restaurant_list_xml, customlayout_xml.
 
 Week5: Check out the Java part for Mainactivity and Restaurantlist. Database establishment(Firebase).
 
