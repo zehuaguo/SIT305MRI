@@ -21,7 +21,7 @@ public class RestaurantList extends AppCompatActivity {
 
     String[] LOCATION = {"City", "BoxHill"};
 
-    ImageButton Imagebutton1;
+    ImageButton Imagebutton9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +34,8 @@ public class RestaurantList extends AppCompatActivity {
         CustomAdapter customAdapter = new CustomAdapter();
         listView.setAdapter(customAdapter);
 
-        Imagebutton1 = (ImageButton) findViewById(R.id.imageButton11);
-        Imagebutton1.setOnClickListener(new View.OnClickListener() {
+        Imagebutton9 = (ImageButton) findViewById(R.id.imageButton9);
+        Imagebutton9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivity_restaurant_list();

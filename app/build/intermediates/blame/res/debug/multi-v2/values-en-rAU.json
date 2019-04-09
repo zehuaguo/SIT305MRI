@@ -4,7 +4,7 @@
             "outputFile": "/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/Users/zehuaguo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e34530a1359216f162978e5fd1784c08/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/Users/zehuaguo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/54678706d49d5c59fa6b03e214e7ee49/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/zehuaguo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d29148c8a658442c823843013b91b898/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/Users/zehuaguo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/86cd5b176d7a45cab5641c8ceac651e2/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

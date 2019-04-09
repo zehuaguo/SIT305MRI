@@ -8,45 +8,6 @@
     android:scrollbarStyle="outsideInset"
     tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="77dp"
-        android:layout_height="72dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="510dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="77dp"
-        android:layout_height="72dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="119dp"
-        android:layout_marginTop="510dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="77dp"
-        android:layout_height="72dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="219dp"
-        android:layout_marginTop="512dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="77dp"
-        android:layout_height="72dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="313dp"
-        android:layout_marginTop="513dp"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <SearchView
         android:id="@+id/searchforrestaurants"
@@ -70,8 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="447dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="390dp"
         android:scrollbarStyle="outsideInset"
         android:text="Korean"
         android:textColor="@android:color/background_dark"
@@ -86,7 +47,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="115dp"
-        android:layout_marginTop="449dp"
+        android:layout_marginTop="389dp"
         android:scrollbarStyle="outsideInset"
         android:text="Chinese"
         android:textColor="@android:color/background_dark"
@@ -101,7 +62,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="209dp"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="389dp"
         android:scrollbarStyle="outsideInset"
         android:text="Japanese"
         android:textColor="@android:color/background_dark"
@@ -115,8 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="309dp"
-        android:layout_marginTop="449dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="389dp"
         android:scrollbarStyle="outsideInset"
         android:text="Western"
         android:textColor="@android:color/background_dark"
@@ -130,8 +91,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="589dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="510dp"
         android:scrollbarStyle="outsideInset"
         android:text="Asian"
         android:textColor="@android:color/background_dark"
@@ -145,8 +106,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="107dp"
-        android:layout_marginTop="591dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="513dp"
         android:scrollbarStyle="outsideInset"
         android:text="Junk food"
         android:textColor="@android:color/background_dark"
@@ -160,8 +121,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="216dp"
-        android:layout_marginTop="590dp"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="510dp"
         android:scrollbarStyle="outsideInset"
         android:text="Desserts"
         android:textColor="@android:color/background_dark"
@@ -176,9 +137,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="313dp"
-        android:layout_marginTop="594dp"
-        android:layout_marginEnd="26dp"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="28dp"
         android:scrollbarStyle="outsideInset"
         android:text="Others"
         android:textColor="@android:color/background_dark"
@@ -188,30 +149,20 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="338dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="421dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="440dp"
         android:visibility="visible"
         tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="87dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic[9]" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="77dp"
-        android:layout_height="72dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="357dp"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -219,18 +170,48 @@
         android:layout_height="72dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="357dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="308dp"
         tools:srcCompat="@tools:sample/avatars" />
 
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="77dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="308dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="77dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="310dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="77dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="309dp"
+        tools:srcCompat="@tools:sample/avatars" />
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="77dp"
         android:layout_height="72dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="357dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="428dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
@@ -239,8 +220,28 @@
         android:layout_height="72dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="314dp"
-        android:layout_marginTop="358dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="427dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="77dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="432dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="77dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="432dp"
         tools:srcCompat="@tools:sample/avatars" />
 
 
