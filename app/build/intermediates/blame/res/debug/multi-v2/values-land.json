@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/kimmyhj/Desktop/Deakin Uni/SIT305MRI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/zehuaguo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/86cd5b176d7a45cab5641c8ceac651e2/res/values-land/values-land.xml",
+                    "source": "/Users/kimmyhj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/32558f27fcdeb98a18922920f893f21f/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

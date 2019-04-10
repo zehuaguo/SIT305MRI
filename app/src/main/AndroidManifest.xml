@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".restaurant_list8Activity"></activity>
-        <activity android:name=".restaurant_list7Activity" />
-        <activity android:name=".restaurant_list6Activity" />
-        <activity android:name=".restaurant_list5Activity" />
-        <activity android:name=".restaurant_list4Activity" />
-        <activity android:name=".restaurant_list3Activity" />
-        <activity android:name=".restaurant_list2Activity" />
-        <activity android:name=".RestaurantList" />
+        <activity android:name=".Others.OthersActivity"></activity>
+        <activity android:name=".Dessert.DessertActivity" />
+        <activity android:name=".Junk.JunkActivity" />
+        <activity android:name=".Asian.AsianActivity" />
+        <activity android:name=".Western.WesternActivity" />
+        <activity android:name=".Japanese.JapaneseActivity" />
+        <activity android:name=".Chinese.ChineseActivity" />
+        <activity android:name=".Korean.KoreanActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

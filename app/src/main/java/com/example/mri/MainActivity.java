@@ -6,125 +6,135 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.example.mri.Asian.AsianActivity;
+import com.example.mri.Chinese.ChineseActivity;
+import com.example.mri.Dessert.DessertActivity;
+import com.example.mri.Japanese.JapaneseActivity;
+import com.example.mri.Junk.JunkActivity;
+import com.example.mri.Korean.KoreanActivity;
+import com.example.mri.Others.OthersActivity;
+import com.example.mri.Western.WesternActivity;
+
 public class MainActivity extends AppCompatActivity {
 
-     ImageButton androidImagebutton;
-     ImageButton androidImagebutton2;
-     ImageButton androidImagebutton3;
-     ImageButton androidImagebutton4;
-     ImageButton androidImagebutton5;
-     ImageButton androidImagebutton6;
-     ImageButton androidImagebutton7;
-     ImageButton androidImagebutton8;
+     ImageButton BtnKorean;
+     ImageButton BtnChinese;
+     ImageButton BtnJapanese;
+     ImageButton BtnWestern;
+     ImageButton BtnAsian;
+     ImageButton BtnJunk;
+     ImageButton BtnDessert;
+     ImageButton BtnOthers;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        androidImagebutton = findViewById(R.id.imageButton);
-        androidImagebutton.setOnClickListener(new View.OnClickListener() {
+        BtnKorean = findViewById(R.id.KoreanBtn);
+        BtnKorean.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Restaurantlist();
+                KoreanList();
             }
         });
 
-        androidImagebutton2 = findViewById(R.id.imageButton2);
-        androidImagebutton2.setOnClickListener(new View.OnClickListener() {
+        BtnChinese = findViewById(R.id.ChineseBtn);
+        BtnChinese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                restaurant_list2Activity();
+                ChineseList();
             }
         });
 
-        androidImagebutton3 = findViewById(R.id.imageButton3);
-        androidImagebutton3.setOnClickListener(new View.OnClickListener() {
+        BtnJapanese = findViewById(R.id.JapaneseBtn);
+        BtnJapanese.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                restaurant_list2Activity();
+                JapaneseList();
             }
         });
 
-        androidImagebutton4 = findViewById(R.id.imageButton4);
-        androidImagebutton4.setOnClickListener(new View.OnClickListener() {
+        BtnWestern = findViewById(R.id.WesternBtn);
+        BtnWestern.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                restaurant_list2Activity();
+                WesternList();
             }
         });
 
-        androidImagebutton5 = findViewById(R.id.imageButton5);
-        androidImagebutton5.setOnClickListener(new View.OnClickListener() {
+        BtnAsian = findViewById(R.id.AsianBtn);
+        BtnAsian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                restaurant_list2Activity();
+                AsianList();
             }
         });
 
-        androidImagebutton6 = findViewById(R.id.imageButton6);
-        androidImagebutton6.setOnClickListener(new View.OnClickListener() {
+        BtnJunk = findViewById(R.id.JunkBtn);
+        BtnJunk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                restaurant_list2Activity();
+                JunkList();
             }
         });
 
-        androidImagebutton7 = findViewById(R.id.imageButton7);
-        androidImagebutton7.setOnClickListener(new View.OnClickListener() {
+        BtnDessert = findViewById(R.id.DessertBtn);
+        BtnDessert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                restaurant_list2Activity();
+                DessertList();
             }
         });
 
-        androidImagebutton8 = findViewById(R.id.imageButton8);
-        androidImagebutton8.setOnClickListener(new View.OnClickListener() {
+        BtnOthers = findViewById(R.id.OthersBtn);
+        BtnOthers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                restaurant_list2Activity();
+                OthersList();
             }
         });
 
 
     }
 
-    public void Restaurantlist(){
-        Intent intent = new Intent(this,RestaurantList.class);
+    public void KoreanList(){
+        Intent intent = new Intent(this, KoreanActivity.class);
         startActivity(intent);
     }
 
-    public void restaurant_list2Activity(){
-        Intent intent = new Intent(this,restaurant_list2Activity.class);
+    public void ChineseList(){
+        Intent intent = new Intent(this, ChineseActivity.class);
         startActivity(intent);
     }
 
-    public void restaurant_list3Activity(){
-        Intent intent = new Intent(this,restaurant_list3Activity.class);
+    public void JapaneseList(){
+        Intent intent = new Intent(this, JapaneseActivity.class);
         startActivity(intent);
     }
 
-    public void restaurant_list4Activity(){
-        Intent intent = new Intent(this,restaurant_list4Activity.class);
+    public void WesternList(){
+        Intent intent = new Intent(this, WesternActivity.class);
         startActivity(intent);
     }
 
-    public void restaurant_list5Activity(){
-        Intent intent = new Intent(this,restaurant_list5Activity.class);
+    public void AsianList(){
+        Intent intent = new Intent(this, AsianActivity.class);
         startActivity(intent);
     }
 
-    public void restaurant_list6Activity(){
-        Intent intent = new Intent(this,restaurant_list6Activity.class);
+    public void JunkList(){
+        Intent intent = new Intent(this, JunkActivity.class);
         startActivity(intent);
     }
 
-    public void restaurant_list7Activity(){
-        Intent intent = new Intent(this,restaurant_list7Activity.class);
+    public void DessertList(){
+        Intent intent = new Intent(this, DessertActivity.class);
         startActivity(intent);
     }
 
-    public void restaurant_list8Activity(){
-        Intent intent = new Intent(this,restaurant_list8Activity.class);
+    public void OthersList(){
+        Intent intent = new Intent(this, OthersActivity.class);
         startActivity(intent);
     }
 

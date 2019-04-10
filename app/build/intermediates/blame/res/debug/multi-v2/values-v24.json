@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/zehuaguo/Desktop/SIT207-Aandroid programming/MRI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/kimmyhj/Desktop/Deakin Uni/SIT305MRI/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/zehuaguo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/86cd5b176d7a45cab5641c8ceac651e2/res/values-v24/values-v24.xml",
+                    "source": "/Users/kimmyhj/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/32558f27fcdeb98a18922920f893f21f/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/zehuaguo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/e40a77a44047726d829d8c63049de5a8/res/values-v24/values-v24.xml",
+                    "source": "/Users/kimmyhj/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/014977be80229263cd2d9d0d16de54be/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
