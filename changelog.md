@@ -1,36 +1,36 @@
-Week 3, Thursday, 21/March
+# Week 3, Thursday, 21/March
 - I found my team member.[Paris & Kim]
 - had a meeting with him in library, we selected the theme of our project, MRI (Melbourne's Restaurant Information App). [Paris & Kim]
 
-Week 3, Friday, 22/March
+# Week 3, Friday, 22/March 
 - Then we built the new repository and invited our unit chair to participate in our project.[Paris]
 - Layout design for app screen.[kim]
 
-Week 4, Monday, 25/March
+# Week 4, Monday, 25/March
 - I created the basic three layouts, activity_main_xml, activity_restaurant_list_xml and customlayout_xml [Paris]
   main activity is the home page of our app. There is a search function on this page, which allows users to search for the type of restaurant or restaurant that the user likes. And there are 8 different types of restaurants on the home page, users can directly select the type of restaurant he likes by tapping.
   restaurant list and customlayout are layouts that can display the list. The user enters the restaurant list page by tapping the restaurant type in the homepage and then customlayout will display this List of types of restaurants.  
 - Do research on how to set up a Firebase. [Kim]
 
-Week 4, Wednesday, 27/March
+# Week 4, Wednesday, 27/March
 - collect existing restaurant information and photos. [Paris]
 
-Week 4, Friday, 29/March
+# Week 4, Friday, 29/March
 - Connect to database and test it. [Kim]
 
 # Week 4, Henry notes
 - This file needs significantly more edits, so I can match dates with attendance.php entries and ensure fair grades at end of trimester.
 - You need much more progress. Deakin requires a minimum 10-14 hours per week, per unit, in order to pass.
 
-Week 5, Thursday, 02/April
+# Week 5, Thursday, 02/April
 - I created 7 layouts and 7 activities. Each of these layouts corresponds to a different type of restaurant, such as a Chinese restaurant, a Korean restaurant, and each layout has a list of the restaurants and the Button returns to the main page. [Paris]
-Week 5, Wednesday, 03/April
+# Week 5, Wednesday, 03/April
 - I met my team members in the library, reported and summarized the progress of our project, and discussed the tasks to be completed next week.[Paris & Kim]
 
-Week 5, Friday, 05/April
+# Week 5, Friday, 05/April
 - Save data into database.Stores some restaurant information to the database, such as the location of the restaurant, and the menu of the restaurant[Kim]
 
-week 6, 
+# week 6, 
 
 # Week 6, Monday 8/April [Henry]
 - There is a need of minimum 2 days per week to pass under normal circumstances. 
