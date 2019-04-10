@@ -31,13 +31,13 @@
 # Week 5, Friday, 05/April
 - Save data into database(Stores some restaurant information to the database), such as the location of the restaurant, and the restaurant name[Kim]
 
-# week 5, Monday - Wednesday, 8-10/April
+# Week 5, Monday - Wednesday, 8-10/April
 - Fixed some error for our andorid project. [Paris]
 - Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris]
 - Retrieve data on the recyclerview to show data from Firebase.[Kim]
 - A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
 
-# week 6 Plan
+# Week 6 Plan
 We will create restaurnat detail page and coding for detail screen.
 - Create a new restaurant detail page and link all previous list pages.[Paris]
 - Save restaurant detail data into Firebase (This is expected to require a lot of data).[Paris]
