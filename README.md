@@ -19,5 +19,5 @@
 - Week6: Please check layout part for activity_restaurant_detail_xml and Java part for Rrstaurantdetail. Link and display our database to activity_restaurant_detail_xml
 
 # Plan for next week7:
-###### In the seventh week, we will connect the database to the restaurant details page and display the restaurant information. We may include some restaurant location features, or online ordering and delivery features.
+## In the seventh week, we will connect the database to the restaurant details page and display the restaurant information. We may include some restaurant location features, or online ordering and delivery features.
 
