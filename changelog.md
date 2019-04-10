@@ -8,8 +8,8 @@
 
 # Week 4, Monday, 25/March
 - I created the basic three layouts, activity_main_xml, activity_restaurant_list_xml and customlayout_xml [Paris]
-  main activity is the home page of our app. There is a search function on this page, which allows users to search for the type of restaurant or restaurant that the user likes. And there are 8 different types of restaurants on the home page, users can directly select the type of restaurant he likes by tapping.
-  restaurant list and customlayout are layouts that can display the list. The user enters the restaurant list page by tapping the restaurant type in the homepage and then customlayout will display this List of types of restaurants.  
+  - main activity is the home page of our app. There is a search function on this page, which allows users to search for the type of restaurant or restaurant that the user likes. And there are 8 different types of restaurants on the home page, users can directly select the type of restaurant he likes by tapping.
+  - restaurant list and customlayout are layouts that can display the list. The user enters the restaurant list page by tapping the restaurant type in the homepage and then customlayout will display this List of types of restaurants.  
 - Do research on how to set up a Firebase. [Kim]
 
 # Week 4, Wednesday, 27/March
