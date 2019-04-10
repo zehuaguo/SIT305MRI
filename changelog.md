@@ -30,7 +30,9 @@
 # Week 5, Friday, 05/April
 - Save data into database.Stores some restaurant information to the database, such as the location of the restaurant, and the menu of the restaurant[Kim]
 
-# week 6, 
+# week 6, Wednesday, 10/April
+- Connect all the list pages to the database and display information for each restaurant.[Kim]
+- Create a new restaurant detail page and link all previous list pages.[Paris]
 
 # Week 6, Monday 8/April [Henry]
 - There is a need of minimum 2 days per week to pass under normal circumstances. 
