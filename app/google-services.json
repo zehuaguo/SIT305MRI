@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "308543569373",
+    "firebase_url": "https://sit305mri.firebaseio.com",
+    "project_id": "sit305mri",
+    "storage_bucket": "sit305mri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308543569373:android:33a96c3dd9ac90b2",
+        "android_client_info": {
+          "package_name": "com.example.mri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308543569373-48iu5c442p5o53g01ov14ieq5rt0de2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mri",
+            "certificate_hash": "154027fc6a39c741fc52d842035fb87397e24f46"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj8EIZZWrvJ0y4979WKahzDaeK3eS_YZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308543569373-jme4g0lb7ikda7hib8gv06vh20jq5cek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
