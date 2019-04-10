@@ -13,10 +13,10 @@
 - Do research on how to set up a Firebase. [Kim]
 
 # Week 4, Wednesday, 27/March
-- collect existing restaurant information and photos. [Paris]
+- Collect existing restaurant information and photos. [Paris]
 
 # Week 4, Friday, 29/March
-- Connect to database and test it. [Kim]
+- Learn Firebase and connect to database and test it. [Kim]
 
 # Week 4, Henry notes
 - This file needs significantly more edits, so I can match dates with attendance.php entries and ensure fair grades at end of trimester.
@@ -24,15 +24,26 @@
 
 # Week 5, Thursday, 02/April
 - I created 7 layouts and 7 activities. Each of these layouts corresponds to a different type of restaurant, such as a Chinese restaurant, a Korean restaurant, and each layout has a list of the restaurants and the Button returns to the main page. [Paris]
+
 # Week 5, Wednesday, 03/April
 - I met my team members in the library, reported and summarized the progress of our project, and discussed the tasks to be completed next week.[Paris & Kim]
 
 # Week 5, Friday, 05/April
-- Save data into database.Stores some restaurant information to the database, such as the location of the restaurant, and the menu of the restaurant[Kim]
+- Save data into database(Stores some restaurant information to the database), such as the location of the restaurant, and the restaurant name[Kim]
 
-# week 6, Wednesday, 10/April
-- Connect all the list pages to the database and display information for each restaurant.[Kim]
+# week 5, Monday - Wednesday, 8-10/April
+- Fixed some error for our andorid project. [Paris]
+- Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris]
+- Retrieve data on the recyclerview to show data from Firebase.[Kim]
+- A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
+
+# week 6 Plan
+We will create restaurnat detail page and coding for detail screen.
 - Create a new restaurant detail page and link all previous list pages.[Paris]
+- Save restaurant detail data into Firebase (This is expected to require a lot of data).[Paris]
+- Retrive data on restaurant detail screen. [Kim]
+- Coding for some function such as Login to app and rate for restaurant. [Kim]
+- Research how we can store user input data in Firebase database. [Paris & Kim]
 
 # Week 6, Monday 8/April [Henry]
 - There is a need of minimum 2 days per week to pass under normal circumstances. 
