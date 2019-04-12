@@ -22,20 +22,20 @@
 - This file needs significantly more edits, so I can match dates with attendance.php entries and ensure fair grades at end of trimester.
 - You need much more progress. Deakin requires a minimum 10-14 hours per week, per unit, in order to pass.
 
+# Week 5, Monday，01/April
+- Fixed some error for our andorid project. [Paris]
+- Retrieve data on the recyclerview to show data from Firebase.[Kim]
+
 # Week 5, Thursday, 02/April
 - I created 7 layouts and 7 activities. Each of these layouts corresponds to a different type of restaurant, such as a Chinese restaurant, a Korean restaurant, and each layout has a list of the restaurants and the Button returns to the main page. [Paris]
 
 # Week 5, Wednesday, 03/April
 - I met my team members in the library, reported and summarized the progress of our project, and discussed the tasks to be completed next week.[Paris & Kim]
+- Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris]
+- A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
 
 # Week 5, Friday, 05/April
 - Save data into database(Stores some restaurant information to the database), such as the location of the restaurant, and the restaurant name[Kim]
-
-# Week 5, Monday - Wednesday, 8-10/April
-- Fixed some error for our andorid project. [Paris]
-- Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris]
-- Retrieve data on the recyclerview to show data from Firebase.[Kim]
-- A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
 
 # Week 6 Plan
 We will create restaurnat detail page and coding for detail screen.
