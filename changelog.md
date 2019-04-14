@@ -37,16 +37,25 @@
 # Week 5, Friday, 05/April
 - Save data into database(Stores some restaurant information to the database), such as the location of the restaurant, and the restaurant name[Kim]
 
-# Week 6 Plan
-We will create restaurnat detail page and coding for detail screen.
+# Week 6，Thursday, 11/April
 - Create a new restaurant detail page and link all previous list pages.[Paris]
-- Save restaurant detail data into Firebase (This is expected to require a lot of data).[Paris]
 - Retrive data on restaurant detail screen. [Kim]
+
+# Week 6，Friday, 12/April
 - Coding for some function such as Login to app and rate for restaurant. [Kim]
+- Collect photos of related restaurants and work on licenses.txt[Paris]
+
+# Week 6，Sunday, 14/April
 - Research how we can store user input data in Firebase database. [Paris & Kim]
+- Save restaurant detail data into Firebase (This is expected to require a lot of data).[Paris]
 
 # Week 6, Monday 8/April [Henry]
 - There is a need of minimum 2 days per week to pass under normal circumstances. 
 - I need to get serious with you here: To catch up, you'll need to do much more. If you're not intending to pass, look into withdrawing from the unit and trying again next year.
 - Both of you: function comments. I made a big fuss about this on the unit site last week.
+
+# Week 6, Questions for Henry.
+- Hello Henry, I have a question, is that licenses.txt can be replaced with Microsoft word? Also, does this file need to be uploaded to GitHub?
+
+
 
