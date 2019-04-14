@@ -10,20 +10,16 @@
 - Week3: Discussion about project with team member and create the new repository.
 
 - Week4: 
-  - Research and learn about Firebase database.
-  - Save data (restaurant list) in the Firebase
-  - Design layout of main and restaurant lis screen.
+  - Please check the MainActivty and Second-List-Activity in the Java folder.
+  - Please check the activity-main and activity-second-list in the layout file.
 
 - Week5: 
-  - Bind list design with list screen.
-  - Retrieve data on the list screen to show list.
-  - A list of restaurant corresponding to each category is displayed on the page.
+  - Please check all the activities in the Java folder.
+  - Please check all the activity layouts in the layout file.
 
 - Week6:
-  - Create restaurant detail screen.
-  - Save data (restaurant detail) in the Firebase.
-  - retrieve data on detial screen.
-  - Coding some function such as Login to app.
+  - Please check all the activities in the Java folder. We reclassify them into 8 categories: Asian, Chinese, Dessert, Japanese, Junk, Korean, Other and Western. There are three java files in each folder. For example, the asian folder includes Asian, AsianActivity and AsianAdapter.
+  - Please check all the activity layouts in the layout file.
 
 # Plan for next week7:
 * In the seventh week, we will connect the database to the restaurant details page and display the restaurant information. We may include some restaurant location features, or online ordering and delivery features.
