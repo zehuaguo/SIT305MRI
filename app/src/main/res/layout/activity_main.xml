@@ -104,10 +104,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/JunkBtn"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="26dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="215dp"
         android:layout_toEndOf="@+id/textView5"
         android:scrollbarStyle="outsideInset"
         android:text="Junk food"
@@ -121,10 +119,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/DessertBtn"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="12dp"
         android:layout_marginTop="21dp"
-        android:layout_marginBottom="208dp"
         android:layout_toEndOf="@+id/textView6"
         android:scrollbarStyle="outsideInset"
         android:text="Desserts"
@@ -252,6 +248,31 @@
         android:layout_toEndOf="@+id/DessertBtn"
         tools:srcCompat="@tools:sample/avatars" />
 
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="-88dp"
+        android:layout_marginBottom="129dp"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="122dp"
+        android:text="Sign In" />
 
 
 </RelativeLayout>

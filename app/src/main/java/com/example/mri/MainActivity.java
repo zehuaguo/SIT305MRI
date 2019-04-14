@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.mri.Asian.AsianActivity;
@@ -25,11 +26,29 @@ public class MainActivity extends AppCompatActivity {
      ImageButton BtnJunk;
      ImageButton BtnDessert;
      ImageButton BtnOthers;
+     Button BtnSignUp;
+     Button BtnSignIn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        BtnSignUp = findViewById(R.id.btnSignUp);
+        BtnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SignUp();
+            }
+        });
+
+        BtnSignIn = findViewById(R.id.btnSignIn);
+        BtnSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SignIn();
+            }
+        });
 
         BtnKorean = findViewById(R.id.KoreanBtn);
         BtnKorean.setOnClickListener(new View.OnClickListener() {
@@ -95,7 +114,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
 
+    public void SignUp(){
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
+    }
+
+    public void SignIn(){
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 
     public void KoreanList(){

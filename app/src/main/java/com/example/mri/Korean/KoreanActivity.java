@@ -7,7 +7,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
+import com.example.mri.Asian.Asian;
+import com.example.mri.Chinese.Chinese;
+import com.example.mri.Dessert.Dessert;
+import com.example.mri.Japanese.Japanese;
+import com.example.mri.Junk.Junk;
+import com.example.mri.Others.Others;
 import com.example.mri.R;
+import com.example.mri.Western.Western;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -18,21 +25,23 @@ import java.util.ArrayList;
 
 public class KoreanActivity extends AppCompatActivity {
 
-/*
-    int[] IMAGE = {R.drawable.korean, R.drawable.chinese};
-
-    String[] NAMES = {"Korean", "Chinese"};
-
-    String[] LOCATION = {"City", "BoxHill"};
-
-    ImageButton Imagebutton9;
-*/
     FirebaseDatabase database;
     DatabaseReference dataRef;
+
     ArrayList<Korean> list;
+    /*
+    ArrayList<Chinese> chineseList;
+    ArrayList<Japanese> japaneseList;
+    ArrayList<Western> westernList;
+    ArrayList<Asian> asianList;
+    ArrayList<Junk> junkList;
+    ArrayList<Dessert> dessertList;
+    ArrayList<Others> othersList;
+    */
     Adapter adapter;
-    //Korean korean;
+
     RecyclerView recyclerView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,54 +99,7 @@ public class KoreanActivity extends AppCompatActivity {
 
         CustomAdapter customAdapter = new CustomAdapter();
         listView.setAdapter(customAdapter);
-
-
-        Imagebutton9 = (ImageButton) findViewById(R.id.imageButton9);
-        Imagebutton9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity_restaurant_list();
-            }
-        });
-
     }
-
-    public void openActivity_restaurant_list() {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
-
-    class CustomAdapter extends BaseAdapter{
-
-
-        @Override
-        public int getCount() {
-            return IMAGE.length;
-        }
-
-        @Override
-        public Object getItem(int i) {
-            return null;
-        }
-
-        @Override
-        public long getItemId(int i) {
-            return 0;
-        }
-
-        @Override
-        public View getView(int i, View view, ViewGroup viewGroup) {
-
-            view = getLayoutInflater().inflate(R.layout.customlayout,null);
-            ImageView imageView = (ImageView)view.findViewById(R.id.imageView);
-            TextView textView_name = (TextView)view.findViewById(R.id.textView_name);
-            TextView textView_location = (TextView)view.findViewById(R.id.textView_location);
-
-            imageView.setImageResource(IMAGE[i]);
-            textView_name.setText(NAMES[i]);
-            textView_location.setText(LOCATION[i]);
-
-            return view;
-        }*/
+*/
     }
 }
