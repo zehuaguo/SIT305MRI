@@ -31,23 +31,33 @@
 
 # Week 5, Wednesday, 03/April
 - I met my team members in the library, reported and summarized the progress of our project, and discussed the tasks to be completed next week.[Paris & Kim]
-- Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris]
-- A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
 
 # Week 5, Friday, 05/April
 - Save data into database(Stores some restaurant information to the database), such as the location of the restaurant, and the restaurant name[Kim]
 
-# Week 6，Thursday, 11/April
-- Create a new restaurant detail page and link all previous list pages.[Paris]
-- Retrive data on restaurant detail screen. [Kim]
+# Week 5, Monday, 08/April
+- Fixed some error for our andorid project. [Paris]
+- Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris]
+
+# Week 5, Tuesday, 09/April
+- Retrieve data on the recyclerview to show data from Firebase.[Kim]
+
+# Week 5, Wednesday, 10/April
+- Retrieve data on the recyclerview to show data from Firebase.[Kim]
+- A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
 
 # Week 6，Friday, 12/April
-- Coding for some function such as Login to app and rate for restaurant. [Kim]
+- Research how can we store user input data in Firebase database (for Sign up and Sign in). [Paris & Kim]
+- Tried to remove the redundant classes and use one class for restaurant list (Still have not solve).[Paris & Kim]
+
+# Week 6，Saturday, 13/April
+- Create Sign up and Sign in screen and coding. [Kim]
 - Collect photos of related restaurants and work on licenses.txt[Paris]
+- Tried to remove the redundant classes and use one class (Still have not solve).[Paris]
 
 # Week 6，Sunday, 14/April
-- Research how we can store user input data in Firebase database. [Paris & Kim]
-- Save restaurant detail data into Firebase (This is expected to require a lot of data).[Paris]
+- Tried to remove the redundant classes and use one class (Still have not solve).[Paris]
+- Coding for Login and register function. [Kim]
 
 # Week 6, Monday 8/April [Henry]
 - There is a need of minimum 2 days per week to pass under normal circumstances. 
@@ -56,6 +66,11 @@
 
 # Week 6, Questions for Henry.
 - Hello Henry, I have a question, is that licenses.txt can be replaced with Microsoft word? Also, does this file need to be uploaded to GitHub?
+
+# Week 7 Plan
+- Reomve the redundant classes(too many classese in our project) and try to use just one class for restaurant list.
+- We will certainly solve the above problems in week 7.
+- Create restaurant detail page and coding.
 
 
 
