@@ -65,12 +65,18 @@
 - Both of you: function comments. I made a big fuss about this on the unit site last week.
 
 # Week 6, Questions for Henry.
-- Hello Henry, I have a question, is that licenses.txt can be replaced with Microsoft word? Also, does this file need to be uploaded to GitHub?
+- Hello Henry, I have a question, is that licenses.txt can be replaced with Microsoft word? Also, does this file need to be uploaded to GitHub? 
+- Feedback: Keep as text file. We cannot load Microsoft Word inside Github or IDE to view the file.
 
 # Week 7 Plan
 - Reomve the redundant classes(too many classese in our project) and try to use just one class for restaurant list.
 - We will certainly solve the above problems in week 7.
 - Create restaurant detail page and coding.
+
+# Week 7, Monday 15 April
+- Feedback: I feel your project is falling a lot behind, and you're not putting in enough time to pass. Show me 10-14 hours each per week.. where was it spent? Last week I cannot find 10-14 hours each from you, which would mean you fail? [Henry]
+- Feedback: I want you to start writing the time taken per changelog item (in brackets at the end of each line), so that you can see where time is being spent / not being spent enough. [Henry]
+
 
 
 
