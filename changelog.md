@@ -7,44 +7,44 @@
 - Layout design for app screen.[kim]
 
 # Week 4, Monday, 25/March
-- I created the basic three layouts, activity_main_xml, activity_restaurant_list_xml and customlayout_xml [Paris]
+- I created the basic three layouts, activity_main_xml, activity_restaurant_list_xml and customlayout_xml [Paris] (6 hours)
   - main activity is the home page of our app. There is a search function on this page, which allows users to search for the type of restaurant or restaurant that the user likes. And there are 8 different types of restaurants on the home page, users can directly select the type of restaurant he likes by tapping.
   - restaurant list and customlayout are layouts that can display the list. The user enters the restaurant list page by tapping the restaurant type in the homepage and then customlayout will display this List of types of restaurants.  
-- Do research on how to set up a Firebase. [Kim]
+- Do research on how to set up a Firebase. [Kim] (5 hours)
 
 # Week 4, Wednesday, 27/March
-- Collect existing restaurant information and photos. [Paris]
+- Collect existing restaurant information and photos. [Paris] (4 hours)
 
 # Week 4, Friday, 29/March
-- Learn Firebase and connect to database and test it. [Kim]
+- Learn Firebase and connect to database and test it. [Kim] (5 hours)
 
 # Week 4, Henry notes
 - This file needs significantly more edits, so I can match dates with attendance.php entries and ensure fair grades at end of trimester.
 - You need much more progress. Deakin requires a minimum 10-14 hours per week, per unit, in order to pass.
 
 # Week 5, Monday，01/April
-- Fixed some error for our andorid project. [Paris]
-- Retrieve data on the recyclerview to show data from Firebase.[Kim]
+- Fixed some error for our andorid project. [Paris] (3 hours)
+- Retrieve data on the recyclerview to show data from Firebase.[Kim] (3 hours)
 
 # Week 5, Thursday, 02/April
-- I created 7 layouts and 7 activities. Each of these layouts corresponds to a different type of restaurant, such as a Chinese restaurant, a Korean restaurant, and each layout has a list of the restaurants and the Button returns to the main page. [Paris]
+- I created 7 layouts and 7 activities. Each of these layouts corresponds to a different type of restaurant, such as a Chinese restaurant, a Korean restaurant, and each layout has a list of the restaurants and the Button returns to the main page. [Paris] (2 hours)
 
 # Week 5, Wednesday, 03/April
-- I met my team members in the library, reported and summarized the progress of our project, and discussed the tasks to be completed next week.[Paris & Kim]
+- I met my team members in the library, reported and summarized the progress of our project, and discussed the tasks to be completed next week.[Paris & Kim] (2 hours)
 
 # Week 5, Friday, 05/April
-- Save data into database(Stores some restaurant information to the database), such as the location of the restaurant, and the restaurant name[Kim]
+- Save data into database(Stores some restaurant information to the database), such as the location of the restaurant, and the restaurant name[Kim] (4 hours)
 
 # Week 5, Monday, 08/April
-- Fixed some error for our andorid project. [Paris]
-- Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris]
+- Fixed some error for our andorid project. [Paris] (2 hours)
+- Bind customlayout (restaurnat list design layout) with restaurant list of each category.[Paris] (3 hours)
 
 # Week 5, Tuesday, 09/April
-- Retrieve data on the recyclerview to show data from Firebase.[Kim]
+- Retrieve data on the recyclerview to show data from Firebase.[Kim] (3 hours)
 
 # Week 5, Wednesday, 10/April
-- Retrieve data on the recyclerview to show data from Firebase.[Kim]
-- A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
+- Retrieve data on the recyclerview to show data from Firebase.[Kim] (2 hours)
+- A list of restaurants corresponding to each category is displaed on the screen.[Kim] (3 hours)
 
 # Week 6，Friday, 12/April 
 - Research how can we store user input data in Firebase database (for Sign up and Sign in). [Paris & Kim] (2hours)
