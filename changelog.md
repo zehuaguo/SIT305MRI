@@ -46,18 +46,18 @@
 - Retrieve data on the recyclerview to show data from Firebase.[Kim]
 - A list of restaurants corresponding to each category is displaed on the screen.[Kim] 
 
-# Week 6，Friday, 12/April
-- Research how can we store user input data in Firebase database (for Sign up and Sign in). [Paris & Kim]
-- Tried to remove the redundant classes and use one class for restaurant list (Still have not solve).[Paris & Kim]
+# Week 6，Friday, 12/April 
+- Research how can we store user input data in Firebase database (for Sign up and Sign in). [Paris & Kim](2hours)
+- Tried to remove the redundant classes and use one class for restaurant list (Still have not solve).[Paris & Kim](3hours)
 
 # Week 6，Saturday, 13/April
-- Create Sign up and Sign in screen and coding. [Kim]
-- Collect photos of related restaurants and work on licenses.txt[Paris]
-- Tried to remove the redundant classes and use one class (Still have not solve).[Paris]
+- Create Sign up and Sign in screen and coding. [Kim](5hours)
+- Collect photos of related restaurants and work on licenses.txt[Paris](3hours)
+- Tried to remove the redundant classes and use one class (Still have not solve).[Paris](2hours)
 
 # Week 6，Sunday, 14/April
-- Tried to remove the redundant classes and use one class (Still have not solve).[Paris]
-- Coding for Login and register function. [Kim]
+- Tried to remove the redundant classes and use one class (Still have not solve).[Paris](2hours)
+- Coding for Login and register function. [Kim](3hours)
 
 # Week 6, Monday 8/April [Henry]
 - There is a need of minimum 2 days per week to pass under normal circumstances. 
