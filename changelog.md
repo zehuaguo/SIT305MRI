@@ -77,6 +77,22 @@
 - Feedback: I feel your project is falling a lot behind, and you're not putting in enough time to pass. Show me 10-14 hours each per week.. where was it spent? Last week I cannot find 10-14 hours each from you, which would mean you fail? [Henry]
 - Feedback: I want you to start writing the time taken per changelog item (in brackets at the end of each line), so that you can see where time is being spent / not being spent enough. [Henry]
 
+# Week 7, Wednesday 17 April
+- Remove the redundant classes and created one class to show food category. [Paris & Kim] (3 hours)
+
+# Week 7, Thursday 18 April
+- Save data into Firebase and Retrieve data on the restaurant detail page to show data from Firebase. [Paris & Kim] (3 hours)
+  - Restaurant detail: photo, name and location for now.
+
+# Week 7, Friday 19 April
+- Save data into Firebase and Retrieve data on the restaurant detail page to show data from Firebase. [Paris & Kim] (3 hours)
+  - Restaurant detail: menu and rate 
+  
+# Week 7, Saturday 20 April
+- Research on how to connect Google map to show restaurant location. [Paris] (2 hours)
+
+# Week 7, Sunday 21 April
+- Working on rate function. [Kim] (2 hours)
 
 
 
