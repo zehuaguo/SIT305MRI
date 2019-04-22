@@ -92,7 +92,7 @@
 
 # Week 7, Sunday 21 April
 - Working on menu function (still in progress). [Paris] (1 hours)
-- Working on rating function still in progress). [Kim] (1 hours)
+- Working on rating function (still in progress). [Kim] (1 hours)
 - Research on search function. [Kim] (1 hours)
 
 # Week 8 plan
