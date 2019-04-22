@@ -1,7 +1,0 @@
-#Wed Apr 10 22:53:34 AEST 2019
-base.0=/Users/kimmyhj/Desktop/Deakin Uni/SIT305MRI/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/Users/kimmyhj/Desktop/Deakin Uni/SIT305MRI/app/build/intermediates/dex/debug/mergeExtDexDebug/out

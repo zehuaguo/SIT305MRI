@@ -1,39 +1,53 @@
 package com.example.mri;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 
-import com.example.mri.Asian.AsianActivity;
-import com.example.mri.Chinese.ChineseActivity;
-import com.example.mri.Dessert.DessertActivity;
-import com.example.mri.Japanese.JapaneseActivity;
-import com.example.mri.Junk.JunkActivity;
-import com.example.mri.Korean.KoreanActivity;
-import com.example.mri.Others.OthersActivity;
-import com.example.mri.Western.WesternActivity;
+import com.example.mri.DataModel.Category;
+import com.example.mri.ViewHolder.CategoryViewHolder;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {
 
-     ImageButton BtnKorean;
-     ImageButton BtnChinese;
-     ImageButton BtnJapanese;
-     ImageButton BtnWestern;
-     ImageButton BtnAsian;
-     ImageButton BtnJunk;
-     ImageButton BtnDessert;
-     ImageButton BtnOthers;
-     Button BtnSignUp;
-     Button BtnSignIn;
+    FirebaseDatabase database;
+    DatabaseReference category;
+
+    RecyclerView recyler_category;
+    RecyclerView.LayoutManager layoutManager;
+
+    FirebaseRecyclerAdapter<Category, CategoryViewHolder> adapter;
+
+    Button BtnSignUp;
+    Button BtnSignIn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        database = FirebaseDatabase.getInstance();
+        category = database.getReference("category");
+
+        recyler_category = (RecyclerView)findViewById(R.id.foodList);
+        recyler_category.setHasFixedSize(true);
+        layoutManager = new LinearLayoutManager(this);
+        recyler_category.setLayoutManager(layoutManager);
+
+        loadCategory();
+/*
         BtnSignUp = findViewById(R.id.btnSignUp);
         BtnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,71 +63,45 @@ public class MainActivity extends AppCompatActivity {
                 SignIn();
             }
         });
+*/
+    }
 
-        BtnKorean = findViewById(R.id.KoreanBtn);
-        BtnKorean.setOnClickListener(new View.OnClickListener() {
+    private void loadCategory(){
+
+        FirebaseRecyclerOptions<Category> options =
+                new FirebaseRecyclerOptions.Builder<Category>()
+                .setQuery(category, Category.class)
+                .build();
+
+        adapter
+                = new FirebaseRecyclerAdapter<Category, CategoryViewHolder>(options)
+        {
             @Override
-            public void onClick(View view) {
-                KoreanList();
-            }
-        });
+            protected void onBindViewHolder(@NonNull CategoryViewHolder holder, int position, @NonNull Category model) {
+                holder.txtResName.setText(model.getResName());
+                Picasso.with(getBaseContext()).load(model.getImage()).into(holder.imageView);
 
-        BtnChinese = findViewById(R.id.ChineseBtn);
-        BtnChinese.setOnClickListener(new View.OnClickListener() {
+                final Category clickItem = model;
+                holder.setClickItem(new ClickItem() {
+                    @Override
+                    public void onClick(View view, int position, boolean isLongClick) {
+                        Intent restaurantList = new Intent(MainActivity.this,RestaurantList.class);
+
+                        restaurantList.putExtra("CategoryId", adapter.getRef(position).getKey());
+                        startActivity(restaurantList);
+                    }
+                });
+            }
+
+            @NonNull
             @Override
-            public void onClick(View view) {
-                ChineseList();
+            public CategoryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+                View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_main, parent, false);
+                CategoryViewHolder viewHolder = new CategoryViewHolder(view);
+                return viewHolder;
             }
-        });
-
-        BtnJapanese = findViewById(R.id.JapaneseBtn);
-        BtnJapanese.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                JapaneseList();
-            }
-        });
-
-        BtnWestern = findViewById(R.id.WesternBtn);
-        BtnWestern.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                WesternList();
-            }
-        });
-
-        BtnAsian = findViewById(R.id.AsianBtn);
-        BtnAsian.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AsianList();
-            }
-        });
-
-        BtnJunk = findViewById(R.id.JunkBtn);
-        BtnJunk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                JunkList();
-            }
-        });
-
-        BtnDessert = findViewById(R.id.DessertBtn);
-        BtnDessert.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                DessertList();
-            }
-        });
-
-        BtnOthers = findViewById(R.id.OthersBtn);
-        BtnOthers.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                OthersList();
-            }
-        });
-
+        };
+        recyler_category.setAdapter(adapter);
     }
 
     public void SignUp(){
@@ -125,46 +113,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
-
-    public void KoreanList(){
-        Intent intent = new Intent(this, KoreanActivity.class);
-        startActivity(intent);
-    }
-
-    public void ChineseList(){
-        Intent intent = new Intent(this, ChineseActivity.class);
-        startActivity(intent);
-    }
-
-    public void JapaneseList(){
-        Intent intent = new Intent(this, JapaneseActivity.class);
-        startActivity(intent);
-    }
-
-    public void WesternList(){
-        Intent intent = new Intent(this, WesternActivity.class);
-        startActivity(intent);
-    }
-
-    public void AsianList(){
-        Intent intent = new Intent(this, AsianActivity.class);
-        startActivity(intent);
-    }
-
-    public void JunkList(){
-        Intent intent = new Intent(this, JunkActivity.class);
-        startActivity(intent);
-    }
-
-    public void DessertList(){
-        Intent intent = new Intent(this, DessertActivity.class);
-        startActivity(intent);
-    }
-
-    public void OthersList(){
-        Intent intent = new Intent(this, OthersActivity.class);
-        startActivity(intent);
-    }
-
 
 }

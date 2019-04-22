@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.mri.DataModel.User;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -25,7 +26,7 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        btnSignUp = findViewById(R.id.btnSignUp);
+        //btnSignUp = findViewById(R.id.btnSignUp);
 
         txtUserName = findViewById(R.id.txtUserName);
         txtUserId = findViewById(R.id.txtUserId);
