@@ -95,5 +95,8 @@
 - Working on rating function still in progress). [Kim] (1 hours)
 - Research on search function. [Kim] (1 hours)
 
+# Week 8 plan
+- Complete detail screen.
+- Connect to google map.
 
 
