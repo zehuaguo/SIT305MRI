@@ -24,8 +24,8 @@
   - Please check bleow files:
     - DataModel folder : get and set data from Firebase.
     - ViewHolder folder : bind data.
-    - MainActivity class : food category.
-    - RestaurantList class : restaurant list.
+    - MainActivity class : show food category list.
+    - RestaurantList class : show restaurant list and search function.
     - RestaurantDetial class : restaurant detail.
   
 
