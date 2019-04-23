@@ -98,6 +98,8 @@
 # Note
 We are not sure that you are satisfied about our work. 
 We couldn't expected we spent that much time to show list item.
+Because, we spent a little bit more time to understand how to use Firebase adapter for recyclerview( to show item list).
 So that, we are going to extra work(add more function) on this week for week 8.
+
  
 
