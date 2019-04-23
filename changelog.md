@@ -68,11 +68,6 @@
 - Hello Henry, I have a question, is that licenses.txt can be replaced with Microsoft word? Also, does this file need to be uploaded to GitHub? 
 - Feedback: Keep as text file. We cannot load Microsoft Word inside Github or IDE to view the file.
 
-# Week 7 Plan
-- Reomve the redundant classes(too many classese in our project) and try to use just one class for restaurant list.
-- We will certainly solve the above problems in week 7.
-- Create restaurant detail page and coding.
-
 # Week 7, Monday 15 April
 - Feedback: I feel your project is falling a lot behind, and you're not putting in enough time to pass. Show me 10-14 hours each per week.. where was it spent? Last week I cannot find 10-14 hours each from you, which would mean you fail? [Henry]
 - Feedback: I want you to start writing the time taken per changelog item (in brackets at the end of each line), so that you can see where time is being spent / not being spent enough. [Henry]
@@ -98,5 +93,11 @@
 # Week 8 plan
 - Complete detail screen.
 - Connect to google map.
+- Search item functuon.
 
+# Note
+We are not sure that you are satisfied about our work. 
+We couldn't expected we spent that much time to show list item.
+So that, we are going to extra work(add more function) on this week for week 8.
+ 
 
