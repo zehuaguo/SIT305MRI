@@ -68,31 +68,38 @@
 - Hello Henry, I have a question, is that licenses.txt can be replaced with Microsoft word? Also, does this file need to be uploaded to GitHub? 
 - Feedback: Keep as text file. We cannot load Microsoft Word inside Github or IDE to view the file.
 
-# Week 7 Plan
-- Reomve the redundant classes(too many classese in our project) and try to use just one class for restaurant list.
-- We will certainly solve the above problems in week 7.
-- Create restaurant detail page and coding.
-
 # Week 7, Monday 15 April
 - Feedback: I feel your project is falling a lot behind, and you're not putting in enough time to pass. Show me 10-14 hours each per week.. where was it spent? Last week I cannot find 10-14 hours each from you, which would mean you fail? [Henry]
 - Feedback: I want you to start writing the time taken per changelog item (in brackets at the end of each line), so that you can see where time is being spent / not being spent enough. [Henry]
 
 # Week 7, Wednesday 17 April
-- Remove the redundant classes and created one class to show food category. [Paris & Kim] (3 hours)
+- Remove the redundant classes and created one class to show food category. [Paris & Kim] (4 hours)
 
 # Week 7, Thursday 18 April
-- Save data into Firebase and Retrieve data on the restaurant detail page to show data from Firebase. [Paris & Kim] (3 hours)
-  - Restaurant detail: photo, name and location for now.
+- Create restaurant list screen. [Paris & Kim] (3 hours)
 
 # Week 7, Friday 19 April
 - Save data into Firebase and Retrieve data on the restaurant detail page to show data from Firebase. [Paris & Kim] (3 hours)
-  - Restaurant detail: menu and rate 
+  - Restaurant detail: photo, name and location for now. 
   
 # Week 7, Saturday 20 April
-- Research on how to connect Google map to show restaurant location. [Paris] (2 hours)
+- Research on how to connect Google map to show restaurant location. [Paris] (1 hours)
 
 # Week 7, Sunday 21 April
-- Working on rate function. [Kim] (2 hours)
+- Working on menu function (still in progress). [Paris] (1 hours)
+- Working on rating function (still in progress). [Kim] (1 hours)
+- Research on search function. [Kim] (1 hours)
 
+# Week 8 plan
+- Complete detail screen.
+- Connect to google map.
+- Search item functuon.
 
+# Note
+We are not sure that you are satisfied about our work. 
+We couldn't expected we spent that much time to show list item.
+Because, we spent a little bit more time to understand how to use Firebase adapter for recyclerview( to show item list).
+So that, we are going to extra work(add more function) on this week for week 8.
+
+ 
 

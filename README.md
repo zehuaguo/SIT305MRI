@@ -19,6 +19,17 @@
 
 - Week6:
   - Please check User class, SignUp class and Login class.
+  
+- Week7:
+  - Please check bleow files:
+    - DataModel folder : get and set data from Firebase.
+    - ViewHolder folder : bind data.
+    - MainActivity class : food category.
+    - RestaurantList class : restaurant list.
+    - RestaurantDetial class : restaurant detail.
+  
 
-# Plan for next week7:
-* In the seventh week, we will connect the database to the restaurant details page and display the restaurant information. We may include some restaurant location features, or online ordering and delivery features. Also, we will certainly remove java classes of restaurant list and try to use just one class. 
+# Plan for week8 :
+- We will continue detail page such as menu and rating function.
+- We will create search function.
+- Connect to google map.
