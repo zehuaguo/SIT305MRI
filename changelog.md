@@ -85,10 +85,10 @@
   
 # Week 7, Saturday 20 April
 - Research on how to connect Google map to show restaurant location. [Paris] (1 hours)
+- Research on search function and, to match the restaurant name in the search bar, set the index for the restaurant name in Firebase. [Kim] (2 hours)
 
 # Week 7, Sunday 21 April
 - Working on menu function (still in progress). [Paris] (1 hours)
-- Research on search function. [Kim] (1 hours)
 - Add search function in restaurant list page (class). [Kim] (3 hours) 
 
 # Week 8 plan
