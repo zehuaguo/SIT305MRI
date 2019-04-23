@@ -73,7 +73,8 @@
 - Feedback: I want you to start writing the time taken per changelog item (in brackets at the end of each line), so that you can see where time is being spent / not being spent enough. [Henry]
 
 # Week 7, Wednesday 17 April
-- Remove the redundant classes and created one class to show food category. [Paris & Kim] (4 hours)
+- Re-design main screen and resaurant list screen layout. Remove the redundant classes and created one class to show food category. [Kim] (3 hours) & [Paris] (4 hours)
+  - We were re-design for main screen. We used to use button for food category before but we have changed design to use list ( recyclerview ). So that when user open the this app food category list will show in main screen instead of button. 
 
 # Week 7, Thursday 18 April
 - Create restaurant list screen. [Paris & Kim] (3 hours)
@@ -87,13 +88,12 @@
 
 # Week 7, Sunday 21 April
 - Working on menu function (still in progress). [Paris] (1 hours)
-- Working on rating function (still in progress). [Kim] (1 hours)
 - Research on search function. [Kim] (1 hours)
+- Add search function in restaurant list page. [Kim] (3 hours) 
 
 # Week 8 plan
 - Complete detail screen.
 - Connect to google map.
-- Search item functuon.
 
 # Note
 We are not sure that you are satisfied about our work. 
