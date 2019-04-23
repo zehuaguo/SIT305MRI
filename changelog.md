@@ -74,7 +74,7 @@
 
 # Week 7, Wednesday 17 April
 - Re-design main screen and resaurant list screen layout. Remove the redundant classes and created one class to show food category. [Kim] (3 hours) & [Paris] (4 hours)
-  - We were re-design for main screen. We used to use button for food category before but we have changed design to use list ( recyclerview ). So that when user open the this app food category list will show in main screen instead of button. 
+  - We were re-design for main screen. We used to use button for food category before but we have changed design to use list (using recyclerview to show list). So that the food category list will show in main screen instead of button when user open the this app. 
 
 # Week 7, Thursday 18 April
 - Create restaurant list screen. [Paris & Kim] (3 hours)
@@ -89,7 +89,7 @@
 # Week 7, Sunday 21 April
 - Working on menu function (still in progress). [Paris] (1 hours)
 - Research on search function. [Kim] (1 hours)
-- Add search function in restaurant list page. [Kim] (3 hours) 
+- Add search function in restaurant list page (class). [Kim] (3 hours) 
 
 # Week 8 plan
 - Complete detail screen.
