@@ -89,17 +89,27 @@
 
 # Week 7, Sunday 21 April
 - Working on menu function (still in progress). [Paris] (1 hours)
-- Add search function in restaurant list page (class). [Kim] (3 hours) 
+- Add search function in restaurant list page (class). [Kim] (3 hours)
 
-# Week 8 plan
-- Complete detail screen.
-- Connect to google map.
+# Week 8, Tuesday 30 April
+- Completed search function. [Kim & Paris] (2 hours)
 
-# Note
-We are not sure that you are satisfied about our work. 
-We couldn't expected we spent that much time to show list item.
-Because, we spent a little bit more time to understand how to use Firebase adapter for recyclerview( to show item list).
-So that, we are going to extra work(add more function) on this week for week 8.
+# Week 8, Wednesday 1 May
+- Add menu function in detail page. (User can see the menu when user click the menu button.) [Kim & Pairs] (3 hours)
+
+# Week 8, Firday 3 Friday
+- Completed menu function. [Kim & Paris] (1 hour)
+- Add comment(reveiw) function in detail page. (User can see the comment when user click the comment button.) [Kim & Paris] (5 hours)
+
+# Week 8, Sunday 5 Friday
+- Connect to Google map. (There are several error and need fix.) [Paris] (5 hours)
+- Add rating function. (This function also got some error) [Kim] (5 hours)
+
+# Week 9 plan
+- Fix google map function.
+- Fix rating function.
+- Test our app, find error and fix error.
+
 
  
 
