@@ -92,7 +92,7 @@
 - Add search function in restaurant list page (class). [Kim] (3 hours)
 
 # Week 8, Tuesday 30 April
-- Completed search function. [Kim & Paris] (2 hours)
+- Completed search function and discuss our direction of project. [Kim & Paris] (2 hours)
 
 # Week 8, Wednesday 1 May
 - Add menu function in detail page. (User can see the menu when user click the menu button.) [Kim & Pairs] (3 hours)
