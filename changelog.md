@@ -103,8 +103,8 @@
 - Add comment(reveiw) function in detail page. (User can see the comment when user click the comment button.) [Kim & Paris] (5 hours)
 
 # Week 8, Sunday 5 Friday
-- Connect to Google map. (There are several error and need fix.) [Paris] (5 hours)
-- Add rating function. (This function also got some error) [Kim] (5 hours)
+- Connect to Google map. (There are several errors and need fix.) [Paris] (5 hours)
+- Add rating function. (This function also got some errors) [Kim] (5 hours)
 
 # Week 9 plan
 - Fix google map function.
