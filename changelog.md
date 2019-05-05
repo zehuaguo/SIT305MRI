@@ -95,7 +95,8 @@
 - Completed search function and discuss our direction of project (Especially, Google map). [Kim & Paris] (2 hours)
 
 # Week 8, Wednesday 1 May
-- Add menu function in detail page. (User can see the menu when user click the menu button.) [Kim & Pairs] (3 hours)
+- Add menu function in detail page. (User can see the menu when user click the menu button.) [Kim & Pairs] (4 hours)
+  - At first, we put the text on the menu page, but it was not so good (it looks not clear and bad design that we though). So that we replaced it with a way of showing pictures.  
 
 # Week 8, Firday 3 Friday
 - Completed menu function. [Kim & Paris] (1 hour)
