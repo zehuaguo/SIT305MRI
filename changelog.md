@@ -73,7 +73,8 @@
 - Feedback: I want you to start writing the time taken per changelog item (in brackets at the end of each line), so that you can see where time is being spent / not being spent enough. [Henry]
 
 # Week 7, Wednesday 17 April
-- Remove the redundant classes and created one class to show food category. [Paris & Kim] (4 hours)
+- Re-design main screen and resaurant list screen layout. Remove the redundant classes and created one class to show food category. [Kim] (3 hours) & [Paris] (4 hours)
+  - We were re-design for main screen. We used to use button for food category before but we have changed design to use list (using recyclerview to show list). So that the food category list will show in main screen instead of button when user open the this app. 
 
 # Week 7, Thursday 18 April
 - Create restaurant list screen. [Paris & Kim] (3 hours)
@@ -84,22 +85,34 @@
   
 # Week 7, Saturday 20 April
 - Research on how to connect Google map to show restaurant location. [Paris] (1 hours)
+- Research on search function and, to match the restaurant name in the search bar, set the index for the restaurant name in Firebase. [Kim] (2 hours)
 
 # Week 7, Sunday 21 April
 - Working on menu function (still in progress). [Paris] (1 hours)
-- Working on rating function (still in progress). [Kim] (1 hours)
-- Research on search function. [Kim] (1 hours)
+- Add search function in restaurant list page (class). [Kim] (3 hours)
 
-# Week 8 plan
-- Complete detail screen.
-- Connect to google map.
-- Search item functuon.
+# Week 8, Tuesday 30 April
+- Completed search function and discuss our direction of project (Especially, Google map). [Kim & Paris] (2 hours)
+
+# Week 8, Wednesday 1 May
+- Add menu function in detail page. (User can see the menu when user click the menu button.) [Kim & Pairs] (4 hours)
+  - At first, we put the text on the menu page, but it was not so good (it looks not clear and bad design that we though). So that we replaced it with a way of showing pictures.  
+
+# Week 8, Firday 3 Friday
+- Completed menu function. [Kim & Paris] (1 hour)
+- Add comment(reveiw) function in detail page. (User can see the comment when user click the comment button.) [Kim & Paris] (5 hours)
+
+# Week 8, Sunday 5 Friday
+- Connect to Google map. (There are several errors and need fix.) [Paris] (5 hours)
+- Add rating function. (This function also got some errors) [Kim] (5 hours)
+
+# Week 9 plan
+- Fix google map function.
+- Fix rating function.
+- Test our app, find error and fix error.
 
 # Note
-We are not sure that you are satisfied about our work. 
-We couldn't expected we spent that much time to show list item.
-Because, we spent a little bit more time to understand how to use Firebase adapter for recyclerview( to show item list).
-So that, we are going to extra work(add more function) on this week for week 8.
+I found that I accidentally forgot to push our previous version when I check your comment. I was really suprised about that. Can you please give me a time to push it? I'm going to push it when I back to home because, I don't have laptop now. I'm so sorry about that. Please, give me a chance to push project. Thanks.
 
  
 
