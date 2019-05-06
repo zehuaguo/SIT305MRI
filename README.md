@@ -40,3 +40,6 @@
 # Plan for week9 :
 - Fix the rating and map function.
 - Test our app, find error and fix if we need.  
+
+# Note
+I found that I accidentally forgot to push our previous version when I check your comment. I was really suprised about that. Can you please give me a time to push it? I'm going to push it when I back to home because, I don't have laptop now. I'm so sorry about that. Please, give me a chance to push project. Thanks.
