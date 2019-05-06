@@ -93,26 +93,27 @@
 
 # Week 8, Tuesday 30 April
 - Completed search function and discuss our direction of project (Especially, Google map). [Kim & Paris] (2 hours)
+- Add menu function in detail page. [Kim] (2 hours)
 
 # Week 8, Wednesday 1 May
-- Add menu function in detail page. (User can see the menu when user click the menu button.) [Kim & Pairs] (4 hours)
-  - At first, we put the text on the menu page, but it was not so good (it looks not clear and bad design that we though). So that we replaced it with a way of showing pictures.  
+- Completed menu function. (User can see the menu when user click the menu button.) [Kim & Pairs] (3 hours)
+  - At first, we put the text on the menu page, but it was not so good (it looks not clear and bad design that we though). So that we replaced it with a way of showing pictures.
+- Add rating and comment function. [Kim & Paris] (2 hours)
 
 # Week 8, Firday 3 Friday
-- Completed menu function. [Kim & Paris] (1 hour)
-- Add comment(reveiw) function in detail page. (User can see the comment when user click the comment button.) [Kim & Paris] (5 hours)
+- Add rating and comment function. (User can rate and leave comment when user click the "rate" button) [Kim & Paris] [5 hours]
 
 # Week 8, Sunday 5 Friday
 - Connect to Google map. (There are several errors and need fix.) [Paris] (5 hours)
-- Add rating function. (This function also got some errors) [Kim] (5 hours)
+- Show rating and comment function. (User can see the rating and review when user click the "show comment" button) [Kim] (5 hours)
+  - User need to log in to app if they want to rate the rstaurant.
 
 # Week 9 plan
 - Fix google map function.
 - Fix rating function.
+- Fix layout design.
 - Test our app, find error and fix error.
 
-# Note
-I found that I accidentally forgot to push our previous version when I check your comment. I was really suprised about that. Can you please give me a time to push it? I'm going to push it when I back to home because, I don't have laptop now. I'm so sorry about that. Please, give me a chance to push project. Thanks.
 
  
 
