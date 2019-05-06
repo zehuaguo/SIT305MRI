@@ -3,6 +3,12 @@ package com.example.mri.DataModel;
 public class Restaurants {
     private String RestaurantName,Image,Location;
 
+    public static User currentUser;
+
+    public static final String INTENT_RESTURANT_ID = "DetailId";
+
+    public static final String INTENT_MENU_ID = "menuId";
+
     public Restaurants() {
     }
 

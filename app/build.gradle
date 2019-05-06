@@ -20,6 +20,8 @@ android {
 }
 
 dependencies {
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.stepstone.apprating:app-rating:2.0.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //noinspection GradleCompatible
     implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
@@ -38,8 +40,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:11.8.0'
     implementation 'com.google.firebase:firebase-database:11.8.0'
     implementation 'com.google.firebase:firebase-storage:11.8.0'
-    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
     //implementation 'com.google.firebase:firebase-core:15.0.1'
     //comile 'com.google.firebase:firebase-core:16.1.0'
+
+    compile 'com.google.android.gms:play-services:11.4.0'
 }

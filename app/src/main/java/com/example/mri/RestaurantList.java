@@ -123,7 +123,7 @@ public class RestaurantList extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NonNull RestaurantViewHolder holder, int position, @NonNull Restaurants model) {
                 holder.restaurant_name.setText(model.getRestaurantName());
-                Picasso.with(getBaseContext()).load(model.getImage()).into(holder.restaurant_image);
+                Picasso.get().load(model.getImage()).into(holder.restaurant_image);
 
                 final Restaurants local = model;
                 holder.setClickItem(new ClickItem() {
@@ -179,7 +179,7 @@ public class RestaurantList extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NonNull RestaurantViewHolder holder, int position, @NonNull Restaurants model) {
                 holder.restaurant_name.setText(model.getRestaurantName());
-                Picasso.with(getBaseContext()).load(model.getImage()).into(holder.restaurant_image);
+                Picasso.get().load(model.getImage()).into(holder.restaurant_image);
 
                 final Restaurants local = model;
                 holder.setClickItem(new ClickItem() {
