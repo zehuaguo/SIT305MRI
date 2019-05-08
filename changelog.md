@@ -108,6 +108,13 @@
 - Show rating and comment function. (User can see the rating and review when user click the "show comment" button) [Kim] (5 hours)
   - User need to log in to app if they want to rate the rstaurant.
 
+
+# Week 9, Wednesday 8/May [Henry]
+- Good progress. Glad to see it's getting closer. Final stretch now. 
+- Make sure you go over everything in the Grading Criteria super carefully, to ensure you meet each point.
+
+
+
 # Week 9 plan
 - Fix google map function.
 - Fix rating function.
