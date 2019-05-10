@@ -10,6 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBssZmOTfTtZ-Y_K2XI-Jw6jnoJHLdrXJ0"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity android:name=".GoogleActivity"></activity>
         <activity android:name=".CommentActivity" />
         <activity android:name=".MenuActivity" />
@@ -17,14 +26,6 @@
         <activity android:name=".RestaurantList" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".Others.OthersActivity" />
-        <activity android:name=".Dessert.DessertActivity" />
-        <activity android:name=".Junk.JunkActivity" />
-        <activity android:name=".Asian.AsianActivity" />
-        <activity android:name=".Western.WesternActivity" />
-        <activity android:name=".Japanese.JapaneseActivity" />
-        <activity android:name=".Chinese.ChineseActivity" />
-        <activity android:name=".Korean.KoreanActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -105,6 +105,7 @@ public class RestaurantDetail extends AppCompatActivity implements RatingDialogL
             getRatingRestaurant(detailId);
         }
 
+        // Map function
         if (isServicesOk()){
             MapScreen();
         }
