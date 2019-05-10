@@ -30,16 +30,14 @@
   
 - Week8:
   - Please check below class files:
-    - Menu class, comment and rate class in DataModel folder : get and set data from Firebase.
+    - Menu class and rate class in DataModel folder : get and set data from Firebase.
     - MenuViewHolder and CommentViewHolder class : bind data.
     - MenuActivity class : show the restaurant menu.
-    - CommentActivity class : show the restaurant comment.
-    - RatingActivity class (need fix) : User can rate and see the rating of restaurant.
-    - MapActivity class (need fix) : User search restaurant location in Google map.
+    - RestaurantDetail class : set rating and comment (input data)
+    - CommentActivity class : show the restaurant comment and rating.
+    - GoogleActivity class (need fix) : User search restaurant location in Google map.
     
 # Plan for week9 :
-- Fix the rating and map function.
+- Fix the rating, map function and layout design.
 - Test our app, find error and fix if we need.  
 
-# Note
-I found that I accidentally forgot to push our previous version when I check your comment. I was really suprised about that. Can you please give me a time to push it? I'm going to push it when I back to home because, I don't have laptop now. I'm so sorry about that. Please, give me a chance to push project. Thanks.
