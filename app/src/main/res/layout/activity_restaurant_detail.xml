@@ -95,8 +95,9 @@
                     <Button
                         android:id="@+id/btnMenu"
                         android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="130dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginLeft="30dp"
                         android:text="Menu"/>
 
                 </LinearLayout>
@@ -109,23 +110,10 @@
                     <Button
                         android:id="@+id/btnComment"
                         android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="180dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="140dp"
+                        android:layout_gravity="center"
                         android:text="Show Comment"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:id="@+id/btnRating"
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="230dp"
-                        android:text="Rate"/>
 
                 </LinearLayout>
 
@@ -137,8 +125,9 @@
                     <Button
                         android:id="@+id/btnMap"
                         android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="280dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginLeft="270dp"
                         android:text="Google map"/>
 
                 </LinearLayout>
@@ -156,7 +145,23 @@
                         android:rating="0"
                         android:max="5"
                         android:isIndicator="true"
-                        android:layout_marginTop="330dp"/>
+                        android:layout_marginTop="230dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnRating"
+                        android:layout_width="80dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="230dp"
+                        android:layout_marginLeft="285dp"
+                        android:text="Rate"/>
 
                 </LinearLayout>
 
