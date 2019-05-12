@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button btnLogin;
+    Button btnLogin,btnRgister;
     EditText txtId,txtPassword;
 
     @Override
@@ -27,6 +27,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         btnLogin = findViewById(R.id.btnSignIn);
+        btnRgister = findViewById(R.id.btnRegister);
         txtId = findViewById(R.id.txtUserId);
         txtPassword = findViewById(R.id.txtPassword);
 
@@ -68,10 +69,22 @@ public class LoginActivity extends AppCompatActivity {
                 });
             }
         });
+
+        btnRgister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SignUp();
+            }
+        });
     }
 
     public void SignIn(){
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void SignUp(){
+        Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
     }
 }

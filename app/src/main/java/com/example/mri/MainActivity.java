@@ -55,15 +55,15 @@ public class MainActivity extends AppCompatActivity {
                 SignUp();
             }
         });
-
-        BtnSignIn = findViewById(R.id.btnSignIn);
+*/
+        BtnSignIn = findViewById(R.id.btnLogin);
         BtnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 SignIn();
             }
         });
-*/
+
     }
 
     private void loadCategory(){
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NonNull CategoryViewHolder holder, int position, @NonNull Category model) {
                 holder.txtResName.setText(model.getResName());
-                Picasso.with(getBaseContext()).load(model.getImage()).into(holder.imageView);
+                Picasso.get().load(model.getImage()).into(holder.imageView);
 
                 final Category clickItem = model;
                 holder.setClickItem(new ClickItem() {

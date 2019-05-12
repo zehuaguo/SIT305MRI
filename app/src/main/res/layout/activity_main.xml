@@ -29,4 +29,19 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            android:text="Sign in"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
 </LinearLayout>
