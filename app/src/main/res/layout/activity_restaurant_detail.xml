@@ -20,7 +20,7 @@
             android:id="@+id/collapsing"
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:contentScrim="#OeOdOe"
+
             app:expandedTitleTextAppearance="@android:color/transparent">
 
             <ImageView

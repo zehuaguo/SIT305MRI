@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     Button BtnSignUp;
     Button BtnSignIn;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 /*
         BtnSignUp = findViewById(R.id.btnSignUp);
         BtnSignUp.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Overrvide
             public void onClick(View v) {
                 SignUp();
             }

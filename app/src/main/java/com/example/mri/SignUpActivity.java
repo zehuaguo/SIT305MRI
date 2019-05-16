@@ -50,8 +50,8 @@ public class SignUpActivity extends AppCompatActivity {
                             User user = new User(txtUserName.getText().toString(), txtPassword.getText().toString());
                             table_user.child(txtUserId.getText().toString()).setValue(user);
                             Toast.makeText(SignUpActivity.this, "Register Success", Toast.LENGTH_SHORT).show();
-                            SignIn();
-                            //finish();
+
+                            finish();
                         }
                     }
 
@@ -63,9 +63,9 @@ public class SignUpActivity extends AppCompatActivity {
             }
         });
     }
-
+    /*
     public void SignIn(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-    }
+    }*/
 }
